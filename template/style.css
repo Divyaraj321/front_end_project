@@ -1,0 +1,60 @@
+body{
+    background-color: #f5d14f;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    height: 95vh;
+    place-items: center;
+}
+.container{
+    background-color: white;
+    width: 225px;
+    padding: 17px;
+    margin: auto;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    
+}
+img{
+    height: 130px;
+    width: 228px;
+    border-radius: 10px;
+}
+
+button{
+    /* margin: 5px; */
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    width: 55px;
+    margin-top: 10px;
+    background-color:#f5d14f;
+}
+.btn{
+    font-weight: bold;
+    font-size: 9px;
+}
+
+p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 7px;
+    opacity: 0.7;
+}
+
+h3{
+    font-size: 17px;
+    margin-top: 11px;
+    font-weight: bolder;
+}
+
+#a{
+    color: gray;
+    opacity: 0.7;
+    font-family:'Trebuchet MS';
+    line-height: 16px;
+    margin-top: 3px;
+}
